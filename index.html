@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/css/slider.css">
     <!-- custom css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body>
@@ -31,16 +32,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mr-auto justify-content-center w-100">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#banner">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#feature">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Reviews</a>
+                            <a class="nav-link" href="#review">Reviews</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Download</a>
+                            <a class="nav-link" href="#app-download">Download</a>
                         </li>
                     </ul>
                     <div class="social-nav">
@@ -61,7 +62,7 @@
         <div class="container">
             <div class="banner-content">
                 <div class="row align-items-center">
-                    <div class="col-md-6">
+                    <div class="col-md-6 ">
                         <h2>
                             Get the most fun<br />
                             weather app
@@ -69,23 +70,25 @@
                         <p>
                             Simple, nice and user-friendly application of the<br />weather. Only useful information
                         </p>
-                        <a href="#" class="custom-btn">
+                        <a href="#app-download" class="custom-btn">
                             download
                         </a>
-                        <a href="#" class="custom-btn">
+                        <a href="#feature" class="custom-btn">
                             features
                         </a>
                     </div><!-- /.col-md-6 -->
                     <div class="col-md-6">
                         <div class="banner-img">
                             <img src="assets/image/banner-mobile.png" alt="banner-mobile">
-                        </div>
+                        </div><!-- /.banner-img -->
                     </div><!-- /.col-md-6 -->
                 </div><!-- /.row -->
             </div><!-- /.banner-content -->
-            <a href="#" class="go-bottom">
-                <i class="fas fa-chevron-down"></i>
-            </a><!-- /.go-bottom -->
+            <div class="go-bottom">
+                <a href="#feature">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div><!-- /.go-bottom -->
         </div><!-- /.container -->
     </section><!-- /#banner-->
     <!-- banner End -->
@@ -161,33 +164,32 @@
                 <p>
                     Drag and Drop
                 </p>
-            </div>
+            </div><!-- /.title -->
             <div class="row">
                 <div class="col-md-12">
                     <div class="slider-weather">
-
                         <div id="main">
                             <div id="side1">
                                 <img src="assets/image/wright.png" height="100%" width="100%" />
-                            </div>
+                            </div><!-- /.side1 -->
                             <div id="side2">
                                 <img src="assets/image/wcenter.png" height="100%" width="100%" />
-                            </div>
+                            </div><!-- /.side2 -->
                             <div id="side3">
                                 <img src="assets/image/wleft.png" height="100%" width="100%" />
-                            </div>
-                        </div>
+                            </div><!-- /.side3 -->
+                        </div><!-- /.main -->
                         <div id="pre">
                             <i class="fas fa-chevron-left"></i>
-                        </div>
+                        </div><!-- /.pre -->
                         <div id="nex">
                             <i class="fas fa-chevron-right"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                        </div><!-- /.nex -->
+                    </div><!-- /.slider-weather -->
+                </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /#widget -->
     <!-- widget End -->
 
     <!-- screenshot Start -->
@@ -252,7 +254,7 @@
                         </div><!-- /.cloudy-left-content-->
                     </div><!-- /.col-md-6 -->
                     <div class="col-md-6">
-                        <div class="cloudy-right-content">
+                        <div class="cloudy-right-content mbl-res">
                             <img src="assets/image/rainy-icon.png" alt="">
                             <h2>
                                 when the rain
@@ -278,7 +280,6 @@
                 <h2>what people are saying</h2>
                 <p>Reviews</p>
             </div><!-- /.title -->
-
             <div class="review-element">
                 <div class="row">
                     <div class="col-md-6">
@@ -347,11 +348,15 @@
                         <a href="#">
                             <img src="assets/image/app-btn2.png" alt="">
                         </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    </div><!-- /.app-left-content -->
+                </div><!-- /.col-md-6 -->
+                <div class="col-md-6">
+                    <div class="app-right-content">
+                    </div><!-- /.app-right-content -->
+                </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /#app-download -->
     <!-- app download End -->
 
     <!-- footer Start -->
@@ -369,16 +374,16 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav mr-auto justify-content-center w-100">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="#banner">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#feature">Features</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Reviews</a>
+                                <a class="nav-link" href="#review">Reviews</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Download</a>
+                                <a class="nav-link" href="#app-download">Download</a>
                             </li>
                         </ul>
                         <div class="social-nav">
@@ -395,7 +400,7 @@
                 <p>
                     © 2016 All rights reserved. Weather App Theme by Gravpix
                 </p>
-            </div>
+            </div><!-- /.copyright -->
         </div><!-- /.container-->
     </footer>
     <!-- footer End -->
@@ -405,7 +410,7 @@
         <a href="#">
             <i class="fas fa-chevron-up"></i>
         </a>
-    </div>
+    </div><!-- /.go-top -->
     <!-- go-top btn End -->
     <!-- all scripts here -->
     <script src="assets/js/jquery-3.2.0.min.js"></script>
@@ -475,7 +480,7 @@
             });
         });
     </script>
-
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
